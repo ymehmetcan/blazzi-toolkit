@@ -1,0 +1,7 @@
+{
+  "name": "@blazzy/eslint-plugin",
+  "version": "0.0.1",
+  "description": "Blazzy ESLint plugin",
+  "keywords": ["plugin","eslint","lint"],
+  "author": "Mehmetcan YILMAZ"
+}
