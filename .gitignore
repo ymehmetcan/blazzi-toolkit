@@ -1,0 +1,34 @@
+# dependencies
+node_modules
+.pnp
+.pnp.js
+
+# testing
+coverage
+
+# production
+dist
+build
+
+# debug
+logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# typescript
+*.tsbuildinfo
+
+# env files
+.env*
+!.env.example
+
+# editor files
+.idea
+
+# misc
+.DS_Store
+*.pem
+
+# turbo
+.turbo

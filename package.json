@@ -1,0 +1,7 @@
+{
+  "name": "blazzy-toolkit",
+  "version": "0.0.1",
+  "description": "Code convention tools.",
+  "keywords": ["javascript","typescript","config","lint","eslint","prettier"],
+  "author": "Mehmetcan YILMAZ"
+}
