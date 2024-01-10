@@ -2,6 +2,21 @@
   "name": "blazzy-toolkit",
   "version": "0.0.1",
   "description": "Code convention tools.",
-  "keywords": ["javascript","typescript","config","lint","eslint","prettier"],
-  "author": "Mehmetcan YILMAZ"
+  "keywords": [
+    "javascript",
+    "typescript",
+    "config",
+    "lint",
+    "eslint",
+    "prettier"
+  ],
+  "author": "Mehmetcan YILMAZ",
+  "scripts": {
+    "format": "prettier --write . --list-different",
+    "format:check": "prettier --check ."
+  },
+  "devDependencies": {
+    "@blazzy/prettier-config": "workspace:*",
+    "prettier": "3.1.1"
+  }
 }

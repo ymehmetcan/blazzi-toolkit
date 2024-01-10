@@ -1,0 +1,32 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    devDependencies:
+      '@blazzy/prettier-config':
+        specifier: workspace:*
+        version: link:packages/prettier-config
+      prettier:
+        specifier: 3.1.1
+        version: 3.1.1
+
+  packages/commitlint-config: {}
+
+  packages/eslint-config: {}
+
+  packages/eslint-plugin: {}
+
+  packages/prettier-config: {}
+
+packages:
+
+  /prettier@3.1.1:
+    resolution: {integrity: sha512-22UbSzg8luF4UuZtzgiUOfcGM8s4tjBv6dJRT7j275NXsy2jb4aJa4NNveul5x4eqlF1wuhuR2RElK71RvmVaw==}
+    engines: {node: '>=14'}
+    hasBin: true
+    dev: true

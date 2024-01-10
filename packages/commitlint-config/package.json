@@ -2,6 +2,10 @@
   "name": "@blazzy/commitlint-config",
   "version": "0.0.1",
   "description": "Blazzy Commitlint config",
-  "keywords": ["config","commitlint","commit-message"],
+  "keywords": [
+    "config",
+    "commitlint",
+    "commit-message"
+  ],
   "author": "Mehmetcan YILMAZ"
 }

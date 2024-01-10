@@ -2,6 +2,12 @@
   "name": "@blazzy/prettier-config",
   "version": "0.0.1",
   "description": "Blazzy Prettier config",
-  "keywords": ["config","prettier","lint","code-style"],
-  "author": "Mehmetcan YILMAZ"
+  "keywords": [
+    "config",
+    "prettier",
+    "lint",
+    "code-style"
+  ],
+  "author": "Mehmetcan YILMAZ",
+  "main": "src/index.js"
 }
