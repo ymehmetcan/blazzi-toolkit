@@ -7,5 +7,9 @@
     "commitlint",
     "commit-message"
   ],
-  "author": "Mehmetcan YILMAZ"
+  "author": "Mehmetcan YILMAZ",
+  "main": "src/index.js",
+  "devDependencies": {
+    "@commitlint/config-conventional": "18.4.4"
+  }
 }
