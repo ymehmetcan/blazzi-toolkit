@@ -12,8 +12,12 @@
   ],
   "author": "Mehmetcan YILMAZ",
   "engines": {
-    "node": ">=18"
+    "node": ">=18",
+    "pnpm": "8.14.0",
+    "npm": "please-use-pnpm",
+    "yarn": "please-usn-pnpm"
   },
+  "packageManager": "pnpm@8.14.0",
   "scripts": {
     "prepare": "husky install",
     "format": "prettier --write . --list-different",
