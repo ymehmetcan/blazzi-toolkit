@@ -12,11 +12,15 @@
   ],
   "author": "Mehmetcan YILMAZ",
   "scripts": {
+    "prepare": "husky install",
     "format": "prettier --write . --list-different",
     "format:check": "prettier --check ."
   },
   "devDependencies": {
+    "@blazzy/commitlint-config": "workspace:*",
     "@blazzy/prettier-config": "workspace:*",
+    "@commitlint/cli": "18.4.4",
+    "husky": "8.0.3",
     "prettier": "3.1.1"
   }
 }
