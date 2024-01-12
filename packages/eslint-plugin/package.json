@@ -7,5 +7,31 @@
     "eslint",
     "lint"
   ],
-  "author": "Mehmetcan YILMAZ"
+  "author": "Mehmetcan YILMAZ",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "20.11.0",
+    "@typescript-eslint/utils": "6.18.1",
+    "eslint": "8.56.0",
+    "tsup": "8.0.1",
+    "typescript": "5.3.3"
+  },
+  "peerDependencies": {
+    "eslint": ">=8"
+  }
 }
