@@ -1,5 +1,5 @@
 {
-  "name": "blazzy-toolkit",
+  "name": "blazzi-toolkit",
   "version": "0.0.1",
   "description": "Code convention tools.",
   "keywords": [
@@ -13,7 +13,7 @@
   "author": "Mehmetcan YILMAZ",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ymehmetcan/blazzy-toolkit.git"
+    "url": "git+https://github.com/ymehmetcan/blazzi-toolkit.git"
   },
   "engines": {
     "node": ">=18.12",
@@ -28,9 +28,9 @@
     "format:check": "prettier --check ."
   },
   "devDependencies": {
-    "@blazzy/commitlint-config": "workspace:*",
-    "@blazzy/eslint-config": "workspace:*",
-    "@blazzy/prettier-config": "workspace:*",
+    "@blazzi/commitlint-config": "workspace:*",
+    "@blazzi/eslint-config": "workspace:*",
+    "@blazzi/prettier-config": "workspace:*",
     "@commitlint/cli": "18.4.4",
     "eslint": "8.56.0",
     "husky": "8.0.3",

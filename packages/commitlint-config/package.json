@@ -1,7 +1,7 @@
 {
-  "name": "@blazzy/commitlint-config",
+  "name": "@blazzi/commitlint-config",
   "version": "0.0.1",
-  "description": "Blazzy Commitlint config",
+  "description": "Blazzi Commitlint config",
   "keywords": [
     "config",
     "commitlint",
@@ -10,7 +10,7 @@
   "author": "Mehmetcan YILMAZ",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ymehmetcan/blazzy-toolkit.git",
+    "url": "git+https://github.com/ymehmetcan/blazzi-toolkit.git",
     "directory": "packages/commitlint-config"
   },
   "main": "src/index.js",

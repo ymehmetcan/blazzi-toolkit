@@ -1,1 +1,1 @@
-module.exports = require('@blazzy/prettier-config');
+module.exports = require('@blazzi/prettier-config');

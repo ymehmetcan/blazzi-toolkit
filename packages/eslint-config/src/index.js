@@ -7,11 +7,11 @@ module.exports = {
     node: true,
   },
   parser: '@typescript-eslint/parser',
-  plugins: ['@typescript-eslint', '@blazzy'],
+  plugins: ['@typescript-eslint', '@blazzi'],
   extends: [
     'eslint:recommended',
     'plugin:@typescript-eslint/recommended',
-    'plugin:@blazzy/recommended',
+    'plugin:@blazzi/recommended',
     'prettier',
   ],
 };

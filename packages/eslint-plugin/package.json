@@ -1,7 +1,7 @@
 {
-  "name": "@blazzy/eslint-plugin",
+  "name": "@blazzi/eslint-plugin",
   "version": "0.0.1",
-  "description": "Blazzy ESLint plugin",
+  "description": "Blazzi ESLint plugin",
   "keywords": [
     "plugin",
     "eslint",
@@ -10,7 +10,7 @@
   "author": "Mehmetcan YILMAZ",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ymehmetcan/blazzy-toolkit.git",
+    "url": "git+https://github.com/ymehmetcan/blazzi-toolkit.git",
     "directory": "packages/eslint-plugin"
   },
   "publishConfig": {

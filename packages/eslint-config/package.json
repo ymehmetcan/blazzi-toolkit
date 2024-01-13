@@ -1,7 +1,7 @@
 {
-  "name": "@blazzy/eslint-config",
+  "name": "@blazzi/eslint-config",
   "version": "0.0.1",
-  "description": "Blazzy ESLint config",
+  "description": "Blazzi ESLint config",
   "keywords": [
     "config",
     "eslint",
@@ -10,7 +10,7 @@
   "author": "Mehmetcan YILMAZ",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ymehmetcan/blazzy-toolkit.git",
+    "url": "git+https://github.com/ymehmetcan/blazzi-toolkit.git",
     "directory": "packages/eslint-config"
   },
   "main": "src/index.js",
@@ -18,7 +18,7 @@
     ".": "./src/index.js"
   },
   "dependencies": {
-    "@blazzy/eslint-plugin": "workspace:*",
+    "@blazzi/eslint-plugin": "workspace:*",
     "@rushstack/eslint-patch": "1.6.1",
     "@typescript-eslint/eslint-plugin": "6.18.1",
     "@typescript-eslint/parser": "6.18.1",

@@ -1,6 +1,6 @@
 export default {
-  plugins: ['@blazzy'],
+  plugins: ['@blazzi'],
   rules: {
-    '@blazzy/no-then': 'warn',
+    '@blazzi/no-then': 'warn',
   },
 };

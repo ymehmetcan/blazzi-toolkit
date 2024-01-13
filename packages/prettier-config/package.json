@@ -1,7 +1,7 @@
 {
-  "name": "@blazzy/prettier-config",
+  "name": "@blazzi/prettier-config",
   "version": "0.0.1",
-  "description": "Blazzy Prettier config",
+  "description": "Blazzi Prettier config",
   "keywords": [
     "config",
     "prettier",
@@ -11,7 +11,7 @@
   "author": "Mehmetcan YILMAZ",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ymehmetcan/blazzy-toolkit.git",
+    "url": "git+https://github.com/ymehmetcan/blazzi-toolkit.git",
     "directory": "packages/prettier-config"
   },
   "main": "src/index.js"

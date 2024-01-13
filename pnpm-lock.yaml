@@ -8,13 +8,13 @@ importers:
 
   .:
     devDependencies:
-      '@blazzy/commitlint-config':
+      '@blazzi/commitlint-config':
         specifier: workspace:*
         version: link:packages/commitlint-config
-      '@blazzy/eslint-config':
+      '@blazzi/eslint-config':
         specifier: workspace:*
         version: link:packages/eslint-config
-      '@blazzy/prettier-config':
+      '@blazzi/prettier-config':
         specifier: workspace:*
         version: link:packages/prettier-config
       '@commitlint/cli':
@@ -41,7 +41,7 @@ importers:
 
   packages/eslint-config:
     dependencies:
-      '@blazzy/eslint-plugin':
+      '@blazzi/eslint-plugin':
         specifier: workspace:*
         version: link:../eslint-plugin
       '@rushstack/eslint-patch':
