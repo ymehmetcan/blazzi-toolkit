@@ -13,6 +13,9 @@
     "url": "git+https://github.com/ymehmetcan/blazzi-toolkit.git",
     "directory": "packages/commitlint-config"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "src/index.js",
   "devDependencies": {
     "@commitlint/config-conventional": "18.4.4"

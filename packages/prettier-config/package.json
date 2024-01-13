@@ -14,5 +14,8 @@
     "url": "git+https://github.com/ymehmetcan/blazzi-toolkit.git",
     "directory": "packages/prettier-config"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "src/index.js"
 }

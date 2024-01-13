@@ -13,6 +13,9 @@
     "url": "git+https://github.com/ymehmetcan/blazzi-toolkit.git",
     "directory": "packages/eslint-config"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "src/index.js",
   "exports": {
     ".": "./src/index.js"
