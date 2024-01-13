@@ -8,7 +8,15 @@
     "lint"
   ],
   "author": "Mehmetcan YILMAZ",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ymehmetcan/blazzy-toolkit.git",
+    "directory": "packages/eslint-config"
+  },
   "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
   "dependencies": {
     "@blazzy/eslint-plugin": "workspace:*",
     "@rushstack/eslint-patch": "1.6.1",

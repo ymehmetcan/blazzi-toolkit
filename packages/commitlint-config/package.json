@@ -8,6 +8,11 @@
     "commit-message"
   ],
   "author": "Mehmetcan YILMAZ",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ymehmetcan/blazzy-toolkit.git",
+    "directory": "packages/commitlint-config"
+  },
   "main": "src/index.js",
   "devDependencies": {
     "@commitlint/config-conventional": "18.4.4"

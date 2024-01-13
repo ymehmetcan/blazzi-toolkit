@@ -9,5 +9,10 @@
     "code-style"
   ],
   "author": "Mehmetcan YILMAZ",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ymehmetcan/blazzy-toolkit.git",
+    "directory": "packages/prettier-config"
+  },
   "main": "src/index.js"
 }

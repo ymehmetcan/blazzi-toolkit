@@ -8,6 +8,12 @@
     "lint"
   ],
   "author": "Mehmetcan YILMAZ",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ymehmetcan/blazzy-toolkit.git",
+    "directory": "packages/eslint-plugin"
+  },
+  "main": "./dist/index.js",
   "exports": {
     ".": {
       "import": "./dist/index.mjs",
@@ -17,7 +23,6 @@
   "files": [
     "dist"
   ],
-  "main": "./dist/index.js",
   "scripts": {
     "build": "tsup",
     "typecheck": "tsc --noEmit"

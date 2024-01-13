@@ -11,6 +11,10 @@
     "prettier"
   ],
   "author": "Mehmetcan YILMAZ",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ymehmetcan/blazzy-toolkit.git"
+  },
   "engines": {
     "node": ">=18.12",
     "pnpm": "8.14.0",
