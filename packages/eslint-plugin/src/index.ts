@@ -1,7 +1,10 @@
+import noThen from './rules/no-then';
+import recommended from './configs/recommended';
+
 export const rules = {
-  'no-then': require('./rules/no-then').default,
+  'no-then': noThen,
 };
 
 export const configs = {
-  recommended: require('./configs/recommended').default,
+  recommended,
 };
