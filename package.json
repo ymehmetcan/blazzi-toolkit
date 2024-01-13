@@ -20,7 +20,7 @@
     "node": ">=18.12",
     "pnpm": "8.14.0",
     "npm": "please-use-pnpm",
-    "yarn": "please-usn-pnpm"
+    "yarn": "please-use-pnpm"
   },
   "packageManager": "pnpm@8.14.0",
   "scripts": {
