@@ -1,9 +1,5 @@
-<p align="center">
-  <picture>
-  <source media ="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ymehmetcan/blazzy-toolkit/assets/blazzy-logo-dark-bg.svg">
-  <img src="https://github.com/ymehmetcan/blazzy-toolkit/blob/main/assets/blazzy-logo-dark-bg.svg" width="800" height="300" alt="Blazzy Logo">
-</picture>
-</p>
+![Blazzy Logo](./assets/blazzy-logo-dark-bg.svg 'Blazzy Logo')
+
 <h1 align="center">
   Blazzy Toolkit
 </h1>
