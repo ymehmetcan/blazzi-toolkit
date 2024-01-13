@@ -13,6 +13,9 @@
     "url": "git+https://github.com/ymehmetcan/blazzy-toolkit.git",
     "directory": "packages/eslint-plugin"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "./dist/index.js",
   "exports": {
     ".": {
