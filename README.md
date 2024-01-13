@@ -1,4 +1,6 @@
-![Blazzy Logo](./assets/blazzy-logo-dark-bg.svg 'Blazzy Logo')
+<div align="center">
+  <img src="./assets/blazzy-logo-dark-bg.svg" alt="Blazzy Logo" title="Blazzy Logo"/>
+</div>
 
 <h1 align="center">
   Blazzy Toolkit
