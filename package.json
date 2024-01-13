@@ -11,6 +11,7 @@
     "prettier"
   ],
   "author": "Mehmetcan YILMAZ",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ymehmetcan/blazzi-toolkit.git"
