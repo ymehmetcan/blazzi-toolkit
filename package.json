@@ -26,10 +26,14 @@
   "packageManager": "pnpm@8.14.0",
   "scripts": {
     "prepare": "husky install",
-    "postinstall": "turbo run build --filter=@blazzi/eslint-plugin",
-    "build": "turbo run build",
+    "postinstall": "turbo build --filter=@blazzi/eslint-plugin",
+    "build": "turbo build",
+    "lint": "eslint --max-warnings 0 --ext .js,.cjs,.mjs,.ts",
+    "lint:fix": "eslint --ext .js,.cjs,.mjs,.ts --fix",
     "format": "prettier --write . --list-different",
-    "format:check": "prettier --check ."
+    "format:check": "prettier --check .",
+    "typecheck": "turbo typecheck",
+    "ci:check": "turbo typecheck lint format:check build"
   },
   "devDependencies": {
     "@blazzi/commitlint-config": "workspace:*",
