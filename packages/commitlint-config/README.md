@@ -2,7 +2,7 @@
 
 # @blazzi/commitlint-config
 
-[![npm](https://img.shields.io/npm/v/@blazzi/commitlint-config?label=npm&labelColor=840&color=445)](https://npmjs.com/package/@blazzi/commitlint-config)
+[![npm](https://img.shields.io/npm/v/@blazzi/commitlint-config?label=npm&color=EA6A13)](https://npmjs.com/package/@blazzi/commitlint-config)
 
 </div>
 
@@ -34,7 +34,7 @@ npm install --save-dev @blazzi/commitlint-config
 
 ## Usage
 
-Once installed, configure `commitlint` to use the `@blazzi/commitlint-config` package. Create or edit your `commitlint` config file (commonly `.commitlintrc.js` or `commitlint-config.cjs` as my preference) as follows:
+Once installed, configure `commitlint` to use the `@blazzi/commitlint-config` package. Create or edit your `commitlint` config file (commonly `commitlint.config.cjs` or `.commitlintrc.js`) as follows:
 
 ```js
 module.exports = {
