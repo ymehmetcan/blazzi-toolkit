@@ -4,18 +4,27 @@
     "topo": {
       "dependsOn": ["^topo"]
     },
+    "//#format:check": {
+      "dependsOn": []
+    },
     "//#lint": {
       "dependsOn": []
     },
-    "//#format:check": {
+    "//#lint:fix": {
       "dependsOn": []
+    },
+    "lint": {
+      "dependsOn": ["topo"]
+    },
+    "lint:fix": {
+      "dependsOn": ["topo"]
+    },
+    "typecheck": {
+      "dependsOn": ["topo"]
     },
     "build": {
       "dependsOn": ["^build"],
       "outputs": ["dist/**"]
-    },
-    "typecheck": {
-      "dependsOn": ["topo"]
     }
   }
 }

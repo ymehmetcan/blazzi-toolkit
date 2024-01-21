@@ -28,6 +28,8 @@
   ],
   "scripts": {
     "build": "tsup",
+    "lint": "eslint . --max-warnings 0 --ext .js,.cjs,.mjs,.ts",
+    "lint:fix": "eslint . --ext .js,.cjs,.mjs,.ts --fix",
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
@@ -38,6 +40,6 @@
     "typescript": "5.3.3"
   },
   "peerDependencies": {
-    "eslint": ">=8"
+    "eslint": "^8.3.0"
   }
 }
