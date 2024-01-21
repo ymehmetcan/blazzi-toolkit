@@ -1,6 +1,6 @@
 {
   "name": "@blazzi/eslint-config",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Blazzi ESLint config",
   "keywords": [
     "config",
@@ -26,6 +26,11 @@
     "./react": "./src/configs/react.js",
     "./next": "./src/configs/next.js"
   },
+  "files": [
+    "*.md",
+    "LICENSE",
+    "src"
+  ],
   "scripts": {
     "lint": "eslint . --max-warnings 0 --ext .js,.cjs,.mjs",
     "lint:fix": "eslint . --ext .js,.cjs,.mjs --fix"
