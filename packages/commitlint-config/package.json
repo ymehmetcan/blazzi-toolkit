@@ -17,6 +17,10 @@
     "access": "public"
   },
   "main": "src/index.js",
+  "scripts": {
+    "lint": "eslint . --max-warnings 0 --ext .js,.cjs,.mjs",
+    "lint:fix": "eslint . --ext .js,.cjs,.mjs --fix"
+  },
   "devDependencies": {
     "@commitlint/config-conventional": "18.4.4"
   }
