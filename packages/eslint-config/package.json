@@ -24,7 +24,9 @@
     "./node": "./src/configs/node.js",
     "./typescript": "./src/configs/typescript.js",
     "./react": "./src/configs/react.js",
-    "./next": "./src/configs/next.js"
+    "./next": "./src/configs/next.js",
+    "./vue": "./src/configs/vue.js",
+    "./nuxt": "./src/configs/nuxt.js"
   },
   "files": [
     "*.md",
