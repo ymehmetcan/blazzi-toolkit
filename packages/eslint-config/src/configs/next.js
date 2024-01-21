@@ -1,3 +1,3 @@
 module.exports = {
-  extends: ['./base', 'next'],
+  extends: ['./base', 'next/core-web-vitals'],
 };
