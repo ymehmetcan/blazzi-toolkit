@@ -1,3 +1,6 @@
 module.exports = {
-  extends: ['@blazzi'],
+  extends: [
+    '@blazzi/eslint-config/typescript',
+    '@blazzi/eslint-config/prettier',
+  ],
 };
