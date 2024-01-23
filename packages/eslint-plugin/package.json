@@ -1,6 +1,6 @@
 {
   "name": "@blazzi/eslint-plugin",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Blazzi ESLint plugin",
   "keywords": [
     "plugin",
@@ -24,7 +24,9 @@
     }
   },
   "files": [
-    "dist"
+    "dist",
+    "*.md",
+    "LICENSE"
   ],
   "scripts": {
     "build": "tsup",
