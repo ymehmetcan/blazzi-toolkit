@@ -21,7 +21,7 @@
     "lint": "eslint . --max-warnings 0 --ext .js,.cjs,.mjs",
     "lint:fix": "eslint . --ext .js,.cjs,.mjs --fix"
   },
-  "devDependencies": {
+  "dependencies": {
     "@commitlint/config-conventional": "18.4.4"
   }
 }
