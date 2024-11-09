@@ -1,6 +1,5 @@
-export default {
-  plugins: ['@blazzi'],
-  rules: {
-    '@blazzi/no-then': 'warn',
-  },
+import { Linter } from '@typescript-eslint/utils/ts-eslint';
+
+export const recommended: Linter.RulesRecord = {
+  '@blazzi/no-then': 'warn',
 };
