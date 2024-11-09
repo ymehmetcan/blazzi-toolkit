@@ -9,6 +9,12 @@
     "code-style"
   ],
   "author": "Mehmetcan YILMAZ",
+  "license": "MIT",
+  "type": "module",
+  "homepage": "https://github.com/ymehmetcan/blazzi-toolkit/tree/main/packages/prettier-config#readme",
+  "bugs": {
+    "url": "https://github.com/ymehmetcan/blazzi-toolkit/issues"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ymehmetcan/blazzi-toolkit.git",
@@ -19,12 +25,22 @@
   },
   "main": "src/index.js",
   "files": [
-    "src",
-    "*.md",
-    "LICENSE"
+    "dist"
   ],
+  "exports": {
+    "types": "./dist/index.d.ts",
+    "import": "./dist/index.js",
+    "require": "./dist/index.cjs"
+  },
   "scripts": {
-    "lint": "eslint . --max-warnings 0 --ext .js,.cjs,.mjs",
-    "lint:fix": "eslint . --ext .js,.cjs,.mjs --fix"
+    "dev": "tsup --watch",
+    "build": "tsup",
+    "lint:types": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@blazzi/ts-config": "workspace:*",
+    "prettier": "3.3.3",
+    "tsup": "8.3.5",
+    "typescript": "5.6.3"
   }
 }

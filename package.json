@@ -1,7 +1,7 @@
 {
   "name": "blazzi-toolkit",
   "private": true,
-  "description": "Code convention tools.",
+  "description": "JavaScript toolkit for code quality & consistency",
   "keywords": [
     "javascript",
     "typescript",
@@ -17,35 +17,44 @@
     "type": "git",
     "url": "git+https://github.com/ymehmetcan/blazzi-toolkit.git"
   },
+  "type": "module",
   "engines": {
-    "node": ">=18.12",
-    "pnpm": "8.14.0",
-    "npm": "please-use-pnpm",
-    "yarn": "please-use-pnpm"
+    "node": ">=20.18",
+    "pnpm": "9.12.x"
   },
-  "packageManager": "pnpm@8.14.0",
+  "packageManager": "pnpm@9.12.3",
   "scripts": {
-    "prepare": "husky install",
-    "postinstall": "turbo build --filter=@blazzi/eslint-plugin",
-    "build": "turbo build",
-    "lint": "eslint . --max-warnings 0 --ext .js,.cjs,.mjs --ignore-pattern '*/**'",
-    "lint:fix": "eslint . --ext .js,.cjs,.mjs --ignore-pattern '*/**' --fix",
-    "lint-all": "turbo lint",
-    "lint:fix-all": "turbo lint:fix",
-    "format": "prettier --write . --list-different",
-    "format:check": "prettier --check .",
-    "typecheck": "turbo typecheck",
-    "ci:check": "turbo typecheck lint format:check build"
+    "preinstall": "npx only-allow pnpm",
+    "postinstall": "pnpm run build",
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "lint:types": "turbo run lint:types",
+    "lint:js": "eslint .",
+    "lint:js:fix": "eslint . --fix",
+    "lint:format": "prettier **/*.{json,md} --check",
+    "lint:format:fix": "prettier **/*.{json,md} --write",
+    "lint": "turbo run lint",
+    "lint:fix": "turbo run lint:fix",
+    "test": "turbo run test",
+    "test:coverage": "vitest run --coverage",
+    "changeset": "changeset",
+    "version": "changeset version && pnpm install --no-frozen-lockfile",
+    "release": "pnpm run build && changeset publish",
+    "ci:review": "pnpm run lint && pnpm run test",
+    "precommit": "lint-staged",
+    "prepare": "husky"
   },
   "devDependencies": {
     "@blazzi/commitlint-config": "workspace:*",
     "@blazzi/eslint-config": "workspace:*",
     "@blazzi/prettier-config": "workspace:*",
-    "@commitlint/cli": "18.6.1",
-    "eslint": "8.56.0",
-    "husky": "8.0.3",
-    "lint-staged": "15.2.2",
-    "prettier": "3.2.5",
-    "turbo": "1.12.4"
+    "@changesets/cli": "2.27.9",
+    "@commitlint/cli": "19.5.0",
+    "@svitejs/changesets-changelog-github-compact": "1.2.0",
+    "eslint": "9.14.0",
+    "husky": "9.1.6",
+    "lint-staged": "15.2.10",
+    "prettier": "3.3.3",
+    "turbo": "2.2.3"
   }
 }

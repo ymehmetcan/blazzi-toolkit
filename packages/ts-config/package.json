@@ -1,0 +1,26 @@
+{
+  "name": "@blazzi/ts-config",
+  "version": "0.0.1",
+  "description": "Blazzi TypeScript Config",
+  "author": "Mehmetcan YILMAZ",
+  "license": "MIT",
+  "homepage": "https://github.com/ymehmetcan/blazzi-toolkit/tree/main/packages/ts-config#readme",
+  "bugs": {
+    "url": "https://github.com/ymehmetcan/blazzi-toolkit/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ymehmetcan/blazzi-toolkit.git",
+    "directory": "packages/ts-config"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "src"
+  ],
+  "exports": {
+    ".": "./src/tsconfig.base.json",
+    "./base": "./src/tsconfig.base.json"
+  }
+}

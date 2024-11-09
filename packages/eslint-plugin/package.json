@@ -8,6 +8,12 @@
     "lint"
   ],
   "author": "Mehmetcan YILMAZ",
+  "license": "MIT",
+  "type": "module",
+  "homepage": "https://github.com/ymehmetcan/blazzi-toolkit/tree/main/packages/eslint-plugin#readme",
+  "bugs": {
+    "url": "https://github.com/ymehmetcan/blazzi-toolkit/issues"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ymehmetcan/blazzi-toolkit.git",
@@ -17,31 +23,25 @@
     "access": "public"
   },
   "main": "./dist/index.js",
-  "exports": {
-    ".": {
-      "import": "./dist/index.mjs",
-      "require": "./dist/index.js"
-    }
-  },
   "files": [
-    "dist",
-    "*.md",
-    "LICENSE"
+    "dist"
   ],
+  "exports": {
+    "types": "./dist/index.d.ts",
+    "import": "./dist/index.js",
+    "require": "./dist/index.cjs"
+  },
   "scripts": {
+    "dev": "tsup --watch",
     "build": "tsup",
-    "lint": "eslint . --max-warnings 0 --ext .js,.cjs,.mjs,.ts",
-    "lint:fix": "eslint . --ext .js,.cjs,.mjs,.ts --fix",
-    "typecheck": "tsc --noEmit"
+    "lint:types": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@typescript-eslint/utils": "8.13.0"
   },
   "devDependencies": {
-    "@types/node": "20.11.0",
-    "@typescript-eslint/utils": "6.18.1",
-    "eslint": "8.56.0",
-    "tsup": "8.0.1",
-    "typescript": "5.3.3"
-  },
-  "peerDependencies": {
-    "eslint": "^8.3.0"
+    "@blazzi/ts-config": "workspace:*",
+    "tsup": "8.3.5",
+    "typescript": "5.6.3"
   }
 }

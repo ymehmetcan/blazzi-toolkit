@@ -1,7 +1,12 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
 # dependencies
 node_modules
 .pnp
 .pnp.js
+
+# pnpm
+package-lock.json
 
 # testing
 coverage
@@ -15,6 +20,9 @@ logs
 *.log
 npm-debug.log*
 pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
 
 # typescript
 *.tsbuildinfo
@@ -23,12 +31,11 @@ pnpm-debug.log*
 .env*
 !.env.example
 
-# editor files
-.idea
-
 # misc
 .DS_Store
 *.pem
+*.local
+.idea
 
 # turbo
 .turbo

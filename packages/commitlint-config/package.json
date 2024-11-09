@@ -8,6 +8,12 @@
     "commit-message"
   ],
   "author": "Mehmetcan YILMAZ",
+  "license": "MIT",
+  "type": "module",
+  "homepage": "https://github.com/ymehmetcan/blazzi-toolkit/tree/main/packages/commitlint-config#readme",
+  "bugs": {
+    "url": "https://github.com/ymehmetcan/blazzi-toolkit/issues"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ymehmetcan/blazzi-toolkit.git",
@@ -16,12 +22,27 @@
   "publishConfig": {
     "access": "public"
   },
-  "main": "src/index.js",
+  "main": "./dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    "types": "./dist/index.d.ts",
+    "import": "./dist/index.js",
+    "require": "./dist/index.cjs"
+  },
   "scripts": {
-    "lint": "eslint . --max-warnings 0 --ext .js,.cjs,.mjs",
-    "lint:fix": "eslint . --ext .js,.cjs,.mjs --fix"
+    "dev": "tsup --watch",
+    "build": "tsup",
+    "lint:types": "tsc --noEmit"
   },
   "dependencies": {
-    "@commitlint/config-conventional": "18.4.4"
+    "@commitlint/config-conventional": "19.5.0"
+  },
+  "devDependencies": {
+    "@blazzi/ts-config": "workspace:*",
+    "@commitlint/types": "19.5.0",
+    "tsup": "8.3.5",
+    "typescript": "5.6.3"
   }
 }
