@@ -8,33 +8,21 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  lint:
+  ci:
+    name: ${{ matrix.job }}
     runs-on: ubuntu-latest
     timeout-minutes: 10
+
+    strategy:
+      matrix:
+        job: [lint, build]
 
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
       - name: Setup
-        uses: ./.github/actions/setup
+        uses: commencis/js-toolkit/.github/actions/setup@main
 
-      - name: Build
-        run: pnpm run build
-
-      - name: Lint
-        run: pnpm run lint
-
-  build:
-    runs-on: ubuntu-latest
-    timeout-minutes: 10
-
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Setup
-        uses: ./.github/actions/setup
-
-      - name: Build
-        run: pnpm run build
+      - name: Run ${{ matrix.job }}
+        run: pnpm run ${{ matrix.job }}

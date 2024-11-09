@@ -9,14 +9,14 @@ importers:
   .:
     devDependencies:
       '@blazzi/commitlint-config':
-        specifier: workspace:*
-        version: link:packages/commitlint-config
+        specifier: 0.1.0
+        version: 0.1.0
       '@blazzi/eslint-config':
-        specifier: workspace:*
-        version: link:packages/eslint-config
+        specifier: 0.1.0
+        version: 0.1.0(@types/eslint@9.6.1)(eslint@9.14.0(jiti@1.21.0))(prettier@3.3.3)(typescript@5.6.3)
       '@blazzi/prettier-config':
-        specifier: workspace:*
-        version: link:packages/prettier-config
+        specifier: 0.1.0
+        version: 0.1.0
       '@changesets/cli':
         specifier: 2.27.9
         version: 2.27.9
@@ -162,6 +162,17 @@ packages:
   '@babel/runtime@7.26.0':
     resolution: {integrity: sha512-FDSOghenHTiToteC/QRlv2q3DhPZ/oOXTBoirfWNx1Cx3TMVcGWQtMMmQcSvb/JjpNeGzx8Pq/b4fKEJuWm1sw==}
     engines: {node: '>=6.9.0'}
+
+  '@blazzi/commitlint-config@0.1.0':
+    resolution: {integrity: sha512-2KLfQ9CGKATyCLGeUTfytWvRsAZlmUgk49KEg9A1Ht4cRlFyxy1qPaJaQeLPLSGs6P4j7vEv+A5hJF/ZmKHIHQ==}
+
+  '@blazzi/eslint-config@0.1.0':
+    resolution: {integrity: sha512-9vY1NVgp8rYhd472EypYuxqNvtf++I4Do7E1g6iR6f/ZeZroSndgrUC0ngy3eYzTngjRW/XJ3/nz1jLfb1W/Cg==}
+    peerDependencies:
+      eslint: '>= 9.7'
+
+  '@blazzi/prettier-config@0.1.0':
+    resolution: {integrity: sha512-TGnjdyqrNByh/RP+rpjnEDfXWQRscD9oiKy39dhpGO5EpViCjg5EKsggn/W26CMqxGnW/j7fBUnSaYq1n5XjVg==}
 
   '@changesets/apply-release-plan@7.0.5':
     resolution: {integrity: sha512-1cWCk+ZshEkSVEZrm2fSj1Gz8sYvxgUL4Q78+1ZZqeqfuevPTPk033/yUZ3df8BKMohkqqHfzj0HOOrG0KtXTw==}
@@ -2477,6 +2488,33 @@ snapshots:
   '@babel/runtime@7.26.0':
     dependencies:
       regenerator-runtime: 0.14.1
+
+  '@blazzi/commitlint-config@0.1.0':
+    dependencies:
+      '@commitlint/config-conventional': 19.5.0
+
+  '@blazzi/eslint-config@0.1.0(@types/eslint@9.6.1)(eslint@9.14.0(jiti@1.21.0))(prettier@3.3.3)(typescript@5.6.3)':
+    dependencies:
+      '@eslint/js': 9.14.0
+      '@next/eslint-plugin-next': 15.0.3
+      '@typescript-eslint/utils': 8.13.0(eslint@9.14.0(jiti@1.21.0))(typescript@5.6.3)
+      eslint: 9.14.0(jiti@1.21.0)
+      eslint-config-prettier: 9.1.0(eslint@9.14.0(jiti@1.21.0))
+      eslint-plugin-jsx-a11y: 6.10.2(eslint@9.14.0(jiti@1.21.0))
+      eslint-plugin-prettier: 5.2.1(@types/eslint@9.6.1)(eslint-config-prettier@9.1.0(eslint@9.14.0(jiti@1.21.0)))(eslint@9.14.0(jiti@1.21.0))(prettier@3.3.3)
+      eslint-plugin-react: 7.37.2(eslint@9.14.0(jiti@1.21.0))
+      eslint-plugin-react-hooks: 5.0.0(eslint@9.14.0(jiti@1.21.0))
+      eslint-plugin-simple-import-sort: 12.1.1(eslint@9.14.0(jiti@1.21.0))
+      eslint-plugin-vue: 9.30.0(eslint@9.14.0(jiti@1.21.0))
+      globals: 15.12.0
+      typescript-eslint: 8.13.0(eslint@9.14.0(jiti@1.21.0))(typescript@5.6.3)
+    transitivePeerDependencies:
+      - '@types/eslint'
+      - prettier
+      - supports-color
+      - typescript
+
+  '@blazzi/prettier-config@0.1.0': {}
 
   '@changesets/apply-release-plan@7.0.5':
     dependencies:
