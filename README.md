@@ -25,10 +25,11 @@ This repository is structured as a monorepo, comprising several npm packages. Ea
 | [`@blazzi/eslint-config`](./packages/eslint-config)         | [![npm](https://img.shields.io/npm/v/@blazzi/eslint-config?label=npm&color=EA6A13)](https://npmjs.com/package/@blazzi/eslint-config)         |
 | [`@blazzi/eslint-plugin`](./packages/eslint-plugin)         | [![npm](https://img.shields.io/npm/v/@blazzi/eslint-plugin?label=npm&color=EA6A13)](https://npmjs.com/package/@blazzi/eslint-plugin)         |
 | [`@blazzi/prettier-config`](./packages/prettier-config)     | [![npm](https://img.shields.io/npm/v/@blazzi/prettier-config?label=npm&color=EA6A13)](https://npmjs.com/package/@blazzi/prettier-config)     |
+| [`@blazzi/ts-config`](./packages/ts-config)                 | [![npm](https://img.shields.io/npm/v/@blazzi/ts-config?label=npm&color=EA6A13)](https://npmjs.com/package/@blazzi/ts-config)                 |
 
 ## Prerequisites
 
-Before you begin, ensure you have `node: >=18.12` installed on your system. This project uses `pnpm` as the package manager.
+Before you begin, ensure you have `node: >=20.18` installed on your system. This project uses `pnpm` as the package manager.
 
 ### Installing pnpm
 
