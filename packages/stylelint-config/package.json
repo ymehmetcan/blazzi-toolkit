@@ -1,0 +1,56 @@
+{
+  "name": "@blazzi/stylelint-config",
+  "version": "0.1.0",
+  "description": "Blazzi Stylelint config",
+  "author": "Mehmetcan YILMAZ",
+  "license": "MIT",
+  "type": "module",
+  "homepage": "https://github.com/ymehmetcan/blazzi-toolkit/tree/main/packages/stylelint-config#readme",
+  "bugs": {
+    "url": "https://github.com/ymehmetcan/blazzi-toolkit/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ymehmetcan/blazzi-toolkit.git",
+    "directory": "packages/stylelint-config"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "./dist/scss-modules.js",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": "./dist/scss-modules.js",
+    "./css": "./dist/css.js",
+    "./scss": "./dist/scss.js",
+    "./css-modules": "./dist/css-modules.js",
+    "./scss-modules": "./dist/scss-modules.js",
+    "./styled": "./dist/styled.js",
+    "./vue": "./dist/vue.js",
+    "./vue-scss": "./dist/vue-scss.js"
+  },
+  "scripts": {
+    "dev": "tsup --watch",
+    "build": "tsup",
+    "lint:types": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@stylistic/stylelint-config": "2.0.0",
+    "postcss-styled-syntax": "0.7.0",
+    "stylelint-config-html": "1.1.0",
+    "stylelint-config-prettier-scss": "1.0.0",
+    "stylelint-config-standard": "36.0.1",
+    "stylelint-config-standard-scss": "13.1.0",
+    "stylelint-order": "6.0.4"
+  },
+  "devDependencies": {
+    "@blazzi/ts-config": "workspace:*",
+    "tsup": "8.3.5",
+    "typescript": "5.6.3"
+  },
+  "peerDependencies": {
+    "stylelint": ">= 16.8"
+  }
+}
