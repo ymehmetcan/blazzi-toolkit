@@ -1,6 +1,6 @@
-import { Linter } from '@typescript-eslint/utils/ts-eslint';
+import { RulesRecord } from '@/types';
 
-export const importSortRules: Linter.RulesRecord = {
+export const importSortPluginRules: RulesRecord = {
   'simple-import-sort/imports': [
     'error',
     {

@@ -1,20 +1,18 @@
 import nextPlugin from '@next/eslint-plugin-next';
 
-import { JSX_TSX_FILE_PATTERNS } from '@/constants';
+import { JSX_TSX_FILE_PATTERNS, PLUGIN } from '@/constants';
 import { type FlatConfig } from '@/types';
+import { getConfigName } from '@/utils';
 
 import { nextPluginRules } from '@/rules';
 
 export const nextPluginConfig: FlatConfig = {
-  name: 'blazzi/plugin:next',
   files: JSX_TSX_FILE_PATTERNS,
-  plugins: {
-    '@next/next': nextPlugin,
-  },
+  plugins: { [PLUGIN.NEXT]: nextPlugin },
   rules: {
     ...nextPlugin.configs.recommended.rules,
     ...nextPlugin.configs['core-web-vitals'].rules,
     ...nextPluginRules,
   },
-  ignores: ['.next/*'],
+  ...getConfigName(PLUGIN.NEXT, 'plugin'),
 };

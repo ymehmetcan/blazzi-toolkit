@@ -28,6 +28,24 @@ With `npm`:
 npm install --save-dev @blazzi/eslint-config
 ```
 
+## Usage
+
+#### Direct Re-Export
+
+```typescript
+// eslint.config.js
+export { default } from '@blazzi/eslint-config/typescript';
+```
+
+#### Define Local
+
+```typescript
+// eslint.config.js
+export { defineConfig, typescriptConfig } from '@blazzi/eslint-config';
+
+export default defineConfig(...typescriptConfig);
+```
+
 ## Contributing
 
 Your contributions are welcome! Please adhere to this commit message convention when submitting pull requests.

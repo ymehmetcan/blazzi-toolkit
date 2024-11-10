@@ -35,8 +35,7 @@
     "lint:format:fix": "prettier **/*.{json,md} --write",
     "lint": "turbo run lint",
     "lint:fix": "turbo run lint:fix",
-    "test": "turbo run test",
-    "test:coverage": "vitest run --coverage",
+    "inspect:eslint": "npx @eslint/config-inspector",
     "changeset": "changeset",
     "version": "changeset version && pnpm install --no-frozen-lockfile",
     "release": "pnpm run build && changeset publish",
@@ -46,7 +45,7 @@
   },
   "devDependencies": {
     "@blazzi/commitlint-config": "0.1.0",
-    "@blazzi/eslint-config": "0.1.0",
+    "@blazzi/eslint-config": "workspace:*",
     "@blazzi/prettier-config": "0.1.0",
     "@changesets/cli": "2.27.9",
     "@commitlint/cli": "19.5.0",

@@ -1,1 +1,1 @@
-export * from './flatConfig';
+export * from './config';
