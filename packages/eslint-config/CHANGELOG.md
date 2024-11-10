@@ -1,5 +1,11 @@
 # @blazzi/eslint-config
 
+## 0.2.3
+
+### Patch Changes
+
+- fix: config names ([`ebe84c9`](https://github.com/ymehmetcan/blazzi-toolkit/commit/ebe84c959bded003d577ba808357e8cc7781e5a1))
+
 ## 0.2.2
 
 ### Patch Changes
