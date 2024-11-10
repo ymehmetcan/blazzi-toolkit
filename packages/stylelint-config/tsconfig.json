@@ -1,0 +1,10 @@
+{
+  "extends": "@blazzi/ts-config",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    }
+  },
+  "include": ["src"]
+}
