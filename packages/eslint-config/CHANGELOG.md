@@ -1,5 +1,11 @@
 # @blazzi/eslint-config
 
+## 0.2.0
+
+### Minor Changes
+
+- refactor: exports, config definitions and internals ([#19](https://github.com/ymehmetcan/blazzi-toolkit/pull/19))
+
 ## 0.1.0
 
 ### Minor Changes
