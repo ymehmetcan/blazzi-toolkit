@@ -1,5 +1,11 @@
 # @blazzi/eslint-config
 
+## 0.2.2
+
+### Patch Changes
+
+- re-arrange exports ([`8b2c85d`](https://github.com/ymehmetcan/blazzi-toolkit/commit/8b2c85d4d60f65820f967e46ff31d954fdd9b114))
+
 ## 0.2.1
 
 ### Patch Changes
