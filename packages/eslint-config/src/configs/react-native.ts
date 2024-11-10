@@ -11,7 +11,7 @@ const config = defineConfig(
   ...reactNativeConfig,
   prettierPluginConfig,
   baseIgnores,
-  getConfigName(CONFIG_NAME.REACT)
+  getConfigName(CONFIG_NAME.REACT_NATIVE)
 );
 
 export { config as default, reactNativeConfig };

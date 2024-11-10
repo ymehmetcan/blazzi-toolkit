@@ -12,7 +12,7 @@ const config = defineConfig(
   prettierPluginConfig,
   baseIgnores,
   expoIgnores,
-  getConfigName(CONFIG_NAME.REACT)
+  getConfigName(CONFIG_NAME.EXPO)
 );
 
 export { config as default, expoConfig };
