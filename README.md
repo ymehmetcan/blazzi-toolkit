@@ -24,6 +24,7 @@ This repository is structured as a monorepo, comprising several npm packages. Ea
 | [`@blazzi/commitlint-config`](./packages/commitlint-config) | [![npm](https://img.shields.io/npm/v/@blazzi/commitlint-config?label=npm&color=EA6A13)](https://npmjs.com/package/@blazzi/commitlint-config) |
 | [`@blazzi/eslint-config`](./packages/eslint-config)         | [![npm](https://img.shields.io/npm/v/@blazzi/eslint-config?label=npm&color=EA6A13)](https://npmjs.com/package/@blazzi/eslint-config)         |
 | [`@blazzi/eslint-plugin`](./packages/eslint-plugin)         | [![npm](https://img.shields.io/npm/v/@blazzi/eslint-plugin?label=npm&color=EA6A13)](https://npmjs.com/package/@blazzi/eslint-plugin)         |
+| [`@blazzi/stylelint-config`](./packages/stylelint-config)   | [![npm](https://img.shields.io/npm/v/@blazzi/stylelint-config?label=npm&color=EA6A13)](https://npmjs.com/package/@blazzi/stylelint-config)   |
 | [`@blazzi/prettier-config`](./packages/prettier-config)     | [![npm](https://img.shields.io/npm/v/@blazzi/prettier-config?label=npm&color=EA6A13)](https://npmjs.com/package/@blazzi/prettier-config)     |
 | [`@blazzi/ts-config`](./packages/ts-config)                 | [![npm](https://img.shields.io/npm/v/@blazzi/ts-config?label=npm&color=EA6A13)](https://npmjs.com/package/@blazzi/ts-config)                 |
 
