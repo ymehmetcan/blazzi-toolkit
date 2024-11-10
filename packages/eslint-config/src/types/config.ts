@@ -1,3 +1,4 @@
+import { type Linter as TSLinter } from '@typescript-eslint/utils/ts-eslint';
 import type { Linter } from 'eslint';
 
 /**
@@ -12,7 +13,30 @@ import type { Linter } from 'eslint';
  */
 
 export type FlatConfig = Omit<Linter.Config, 'plugins'> & {
-  plugins?: Record<string, unknown>;
+  plugins?: Record<string, object>;
 };
 
 export type FlatConfigArray = FlatConfig[];
+
+export type RulesRecord = TSLinter.RulesRecord;
+
+export type ConfigName =
+  | 'base'
+  | 'expo'
+  | 'next'
+  | 'prettier'
+  | 'react'
+  | 'react-native'
+  | 'typescript'
+  | 'vue';
+
+export type PluginName =
+  | '@next/next'
+  | 'jsx-a11y'
+  | 'react'
+  | 'react-hooks'
+  | 'simple-import-sort'
+  | 'typescript-eslint'
+  | 'vue';
+
+export type PresetName = 'eslint-recommended';

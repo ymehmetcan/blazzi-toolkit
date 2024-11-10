@@ -1,6 +1,6 @@
-import { Linter } from '@typescript-eslint/utils/ts-eslint';
+import { RulesRecord } from '@/types';
 
-export const typescriptRules: Linter.RulesRecord = {
+export const typescriptRules: RulesRecord = {
   '@typescript-eslint/consistent-type-definitions': 'off',
   '@typescript-eslint/no-empty-function': 'off',
   '@typescript-eslint/array-type': 'off',

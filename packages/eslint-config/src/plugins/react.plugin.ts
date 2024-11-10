@@ -1,25 +1,20 @@
 import reactPlugin from 'eslint-plugin-react';
 
-import { JSX_TSX_FILE_PATTERNS } from '@/constants';
+import { JSX_TSX_FILE_PATTERNS, PLUGIN } from '@/constants';
 import { type FlatConfig } from '@/types';
+import { getConfigName } from '@/utils';
 
-import { reactRules } from '@/rules';
+import { reactPluginRules } from '@/rules';
 
 export const reactPluginConfig: FlatConfig = {
-  name: 'blazzi/plugin:react',
   files: JSX_TSX_FILE_PATTERNS,
   languageOptions: { ...reactPlugin.configs.flat.recommended.languageOptions },
-  plugins: {
-    react: reactPlugin,
-  },
+  plugins: { [PLUGIN.REACT]: reactPlugin },
   rules: {
     ...reactPlugin.configs.flat.recommended.rules,
     ...reactPlugin.configs.flat['jsx-runtime'].rules,
-    ...reactRules,
+    ...reactPluginRules,
   },
-  settings: {
-    react: {
-      version: 'detect',
-    },
-  },
+  settings: { react: { version: 'detect' } },
+  ...getConfigName(PLUGIN.REACT, 'plugin'),
 };

@@ -1,6 +1,6 @@
-import { Linter } from '@typescript-eslint/utils/ts-eslint';
+import { RulesRecord } from '@/types';
 
-export const reactRules: Linter.RulesRecord = {
+export const reactPluginRules: RulesRecord = {
   // Disable JS specific rules
   'react/jsx-filename-extension': 'off',
   'react/default-props-match-prop-types': 'off',

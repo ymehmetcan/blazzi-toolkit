@@ -1,10 +1,10 @@
 import vuePlugin from 'eslint-plugin-vue';
 
+import { PLUGIN } from '@/constants';
 import { FlatConfigArray } from '@/types';
+import { getConfigName } from '@/utils';
 
 export const vuePluginConfig: FlatConfigArray = [
   ...vuePlugin.configs['flat/recommended'],
-  {
-    name: 'blazzi/plugin:vue',
-  },
+  getConfigName(PLUGIN.VUE, 'plugin'),
 ];
