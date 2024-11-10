@@ -1,5 +1,11 @@
 # @blazzi/eslint-config
 
+## 0.2.1
+
+### Patch Changes
+
+- add name for expo/ignores ([`e2510b6`](https://github.com/ymehmetcan/blazzi-toolkit/commit/e2510b6f3d20e38ea6fa7d362f2ae208e0dda0cc))
+
 ## 0.2.0
 
 ### Minor Changes
