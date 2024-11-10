@@ -32,32 +32,32 @@
       "import": "./dist/index.js"
     },
     "./base": {
-      "types": "./dist/exports/base.d.ts",
-      "import": "./dist/exports/base.js"
+      "types": "./dist/configs/base.d.ts",
+      "import": "./dist/configs/base.js"
     },
     "./expo": {
-      "types": "./dist/exports/expo.d.ts",
-      "import": "./dist/exports/expo.js"
+      "types": "./dist/configs/expo.d.ts",
+      "import": "./dist/configs/expo.js"
     },
     "./next": {
-      "types": "./dist/exports/next.d.ts",
-      "import": "./dist/exports/next.js"
+      "types": "./dist/configs/next.d.ts",
+      "import": "./dist/configs/next.js"
     },
     "./react": {
-      "types": "./dist/exports/react.d.ts",
-      "import": "./dist/exports/react.js"
+      "types": "./dist/configs/react.d.ts",
+      "import": "./dist/configs/react.js"
     },
     "./react-native": {
-      "types": "./dist/exports/react-native.d.ts",
-      "import": "./dist/exports/react-native.js"
+      "types": "./dist/configs/react-native.d.ts",
+      "import": "./dist/configs/react-native.js"
     },
     "./typescript": {
-      "types": "./dist/exports/typescript.d.ts",
-      "import": "./dist/exports/typescript.js"
+      "types": "./dist/configs/typescript.d.ts",
+      "import": "./dist/configs/typescript.js"
     },
     "./vue": {
-      "types": "./dist/exports/vue.d.ts",
-      "import": "./dist/exports/vue.js"
+      "types": "./dist/configs/vue.d.ts",
+      "import": "./dist/configs/vue.js"
     }
   },
   "scripts": {

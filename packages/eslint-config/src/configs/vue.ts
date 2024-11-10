@@ -1,9 +1,9 @@
 import { CONFIG_NAME } from '@/constants';
 import { defineConfig, getConfigName } from '@/utils';
 
-import { baseConfig, typescriptConfig, vueConfig } from '@/configs';
 import { prettierPluginConfig } from '@/plugins';
 import { baseIgnores } from '@/rules';
+import { baseConfig, typescriptConfig, vueConfig } from '@/rulesets';
 
 const config = defineConfig(
   ...baseConfig,

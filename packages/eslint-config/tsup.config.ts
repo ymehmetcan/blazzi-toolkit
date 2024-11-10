@@ -4,7 +4,7 @@ export default defineConfig({
   bundle: true,
   clean: true,
   dts: true,
-  entry: ['src/exports', 'src/index.ts'],
+  entry: ['src/configs', '!src/configs/index.ts', 'src/index.ts'],
   format: ['esm'],
   splitting: false,
 });

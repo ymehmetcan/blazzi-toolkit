@@ -1,18 +1,18 @@
 import { CONFIG_NAME } from '@/constants';
 import { defineConfig, getConfigName } from '@/utils';
 
-import { baseConfig, expoConfig, typescriptConfig } from '@/configs';
 import { prettierPluginConfig } from '@/plugins';
-import { baseIgnores, expoIgnores } from '@/rules';
+import { baseIgnores, nextIgnores } from '@/rules';
+import { baseConfig, nextConfig, typescriptConfig } from '@/rulesets';
 
 const config = defineConfig(
   ...baseConfig,
   ...typescriptConfig,
-  ...expoConfig,
+  ...nextConfig,
   prettierPluginConfig,
   baseIgnores,
-  expoIgnores,
-  getConfigName(CONFIG_NAME.REACT)
+  nextIgnores,
+  getConfigName(CONFIG_NAME.NEXT)
 );
 
-export { config as default, expoConfig };
+export { config as default, nextConfig };

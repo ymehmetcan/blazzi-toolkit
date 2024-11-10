@@ -1,9 +1,3 @@
-export { baseConfig } from '@/exports/base';
-export { expoConfig } from '@/exports/expo';
-export { nextConfig } from '@/exports/next';
-export { reactConfig } from '@/exports/react';
-export { reactNativeConfig } from '@/exports/react-native';
-export { typescriptConfig } from '@/exports/typescript';
-export { vueConfig } from '@/exports/vue';
-export { prettierPluginConfig } from '@/plugins/prettier.plugin';
+export * from '@/configs';
+export { prettierPluginConfig } from '@/plugins';
 export { defineConfig } from '@/utils';

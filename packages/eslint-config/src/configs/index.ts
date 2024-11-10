@@ -1,7 +1,7 @@
-export * from './base.config';
-export * from './expo.config';
-export * from './next.config';
-export * from './react.config';
-export * from './reactNative.config';
-export * from './typescript.config';
-export * from './vue.config';
+export { baseConfig } from './base';
+export { expoConfig } from './expo';
+export { nextConfig } from './next';
+export { reactConfig } from './react';
+export { reactNativeConfig } from './react-native';
+export { typescriptConfig } from './typescript';
+export { vueConfig } from './vue';
