@@ -37,7 +37,7 @@
     "lint:types": "tsc --noEmit"
   },
   "dependencies": {
-    "@typescript-eslint/utils": "8.14.0"
+    "@typescript-eslint/utils": "8.15.0"
   },
   "devDependencies": {
     "@blazzi/ts-config": "workspace:*",
