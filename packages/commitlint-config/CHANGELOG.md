@@ -1,5 +1,11 @@
 # @blazzi/commitlint-config
 
+## 0.1.1
+
+### Patch Changes
+
+- update deps: @commitlint/config-conventional@19.6.0 ([#35](https://github.com/ymehmetcan/blazzi-toolkit/pull/35))
+
 ## 0.1.0
 
 ### Minor Changes
