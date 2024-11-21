@@ -1,5 +1,11 @@
 # @blazzi/eslint-config
 
+## 0.2.5
+
+### Patch Changes
+
+- update deps: eslint@9.15.0 ([#30](https://github.com/ymehmetcan/blazzi-toolkit/pull/30))
+
 ## 0.2.4
 
 ### Patch Changes
