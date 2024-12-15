@@ -43,6 +43,6 @@
     "@blazzi/ts-config": "workspace:*",
     "@commitlint/types": "19.5.0",
     "tsup": "8.3.5",
-    "typescript": "5.6.3"
+    "typescript": "5.7.2"
   }
 }
