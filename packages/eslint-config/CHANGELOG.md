@@ -1,5 +1,11 @@
 # @blazzi/eslint-config
 
+## 0.2.6
+
+### Patch Changes
+
+- update dependency: @next/eslint-plugin-next@15.1.0 ([#50](https://github.com/ymehmetcan/blazzi-toolkit/pull/50))
+
 ## 0.2.5
 
 ### Patch Changes
