@@ -2,4 +2,4 @@
 '@blazzi/eslint-config': patch
 ---
 
-fix(deps): update dependency @next/eslint-plugin-next to v15.1.0
+update dependency: @next/eslint-plugin-next@15.1.0
