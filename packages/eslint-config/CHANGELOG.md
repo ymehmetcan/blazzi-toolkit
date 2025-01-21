@@ -1,5 +1,17 @@
 # @blazzi/eslint-config
 
+## 0.2.6
+
+### Patch Changes
+
+- fix(deps): update eslint monorepo to v9.18.0 ([#49](https://github.com/ymehmetcan/blazzi-toolkit/pull/49))
+
+- fix(deps): update dependency eslint-plugin-vue to v9.32.0 ([#47](https://github.com/ymehmetcan/blazzi-toolkit/pull/47))
+
+- fix(deps): update typescript-eslint monorepo to v8.21.0 ([#45](https://github.com/ymehmetcan/blazzi-toolkit/pull/45))
+
+- update dependency: @next/eslint-plugin-next@15.1.0 ([#50](https://github.com/ymehmetcan/blazzi-toolkit/pull/50))
+
 ## 0.2.5
 
 ### Patch Changes
