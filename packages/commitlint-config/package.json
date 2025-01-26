@@ -42,7 +42,7 @@
   "devDependencies": {
     "@blazzi/ts-config": "workspace:*",
     "@commitlint/types": "19.5.0",
-    "tsup": "8.3.5",
+    "tsup": "8.3.6",
     "typescript": "5.7.2"
   }
 }

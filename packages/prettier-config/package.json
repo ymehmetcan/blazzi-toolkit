@@ -40,7 +40,7 @@
   "devDependencies": {
     "@blazzi/ts-config": "workspace:*",
     "prettier": "3.4.2",
-    "tsup": "8.3.5",
+    "tsup": "8.3.6",
     "typescript": "5.7.2"
   }
 }
