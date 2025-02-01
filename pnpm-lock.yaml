@@ -15,8 +15,8 @@ importers:
         specifier: 0.2.6
         version: 0.2.6(@types/eslint@9.6.1)(eslint@9.18.0(jiti@2.4.2))(prettier@3.4.2)(typescript@5.7.3)
       '@blazzi/prettier-config':
-        specifier: 0.1.0
-        version: 0.1.0
+        specifier: 0.1.1
+        version: 0.1.1
       '@changesets/cli':
         specifier: 2.27.12
         version: 2.27.12
@@ -208,8 +208,8 @@ packages:
     peerDependencies:
       eslint: '>= 9.7'
 
-  '@blazzi/prettier-config@0.1.0':
-    resolution: {integrity: sha512-TGnjdyqrNByh/RP+rpjnEDfXWQRscD9oiKy39dhpGO5EpViCjg5EKsggn/W26CMqxGnW/j7fBUnSaYq1n5XjVg==}
+  '@blazzi/prettier-config@0.1.1':
+    resolution: {integrity: sha512-6PwtFy/QqZJV61Z/Pxmyj3+mmcmAirOCz03+l/pHNJjpQHkWRLVFQL/5h60ixYyq5OHafdzb6PmJJUP/sPcRZQ==}
 
   '@changesets/apply-release-plan@7.0.8':
     resolution: {integrity: sha512-qjMUj4DYQ1Z6qHawsn7S71SujrExJ+nceyKKyI9iB+M5p9lCL55afuEd6uLBPRpLGWQwkwvWegDHtwHJb1UjpA==}
@@ -2899,7 +2899,7 @@ snapshots:
       - supports-color
       - typescript
 
-  '@blazzi/prettier-config@0.1.0': {}
+  '@blazzi/prettier-config@0.1.1': {}
 
   '@changesets/apply-release-plan@7.0.8':
     dependencies:

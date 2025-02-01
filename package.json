@@ -46,7 +46,7 @@
   "devDependencies": {
     "@blazzi/commitlint-config": "0.1.1",
     "@blazzi/eslint-config": "0.2.6",
-    "@blazzi/prettier-config": "0.1.0",
+    "@blazzi/prettier-config": "0.1.1",
     "@changesets/cli": "2.27.12",
     "@commitlint/cli": "19.6.1",
     "@svitejs/changesets-changelog-github-compact": "1.2.0",
