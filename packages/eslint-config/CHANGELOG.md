@@ -1,5 +1,11 @@
 # @blazzi/eslint-config
 
+## 0.2.7
+
+### Patch Changes
+
+- fix(deps): update dependency globals to v15.14.0 ([#48](https://github.com/ymehmetcan/blazzi-toolkit/pull/48))
+
 ## 0.2.6
 
 ### Patch Changes
