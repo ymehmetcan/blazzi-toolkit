@@ -48,7 +48,7 @@
     "@blazzi/eslint-config": "0.2.6",
     "@blazzi/prettier-config": "0.1.1",
     "@changesets/cli": "2.27.12",
-    "@commitlint/cli": "19.6.1",
+    "@commitlint/cli": "19.7.1",
     "@svitejs/changesets-changelog-github-compact": "1.2.0",
     "eslint": "9.18.0",
     "husky": "9.1.7",
