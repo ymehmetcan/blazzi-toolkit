@@ -1,5 +1,0 @@
----
-'@blazzi/eslint-config': patch
----
-
-chore(deps): update dependency eslint-config-prettier to v10
