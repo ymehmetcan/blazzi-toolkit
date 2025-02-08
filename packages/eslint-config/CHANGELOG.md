@@ -1,5 +1,15 @@
 # @blazzi/eslint-config
 
+## 0.2.7
+
+### Patch Changes
+
+- fix(deps): update dependency globals to v15.14.0 ([#48](https://github.com/ymehmetcan/blazzi-toolkit/pull/48))
+
+- chore(deps): update eslint monorepo to v9.19.0 ([#68](https://github.com/ymehmetcan/blazzi-toolkit/pull/68))
+
+- chore(deps): update typescript-eslint monorepo to v8.23.0 ([#70](https://github.com/ymehmetcan/blazzi-toolkit/pull/70))
+
 ## 0.2.6
 
 ### Patch Changes
