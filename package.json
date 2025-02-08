@@ -25,7 +25,6 @@
   "packageManager": "pnpm@10.2.1",
   "scripts": {
     "preinstall": "npx only-allow pnpm",
-    "postinstall": "pnpm run build",
     "dev": "turbo run dev",
     "build": "turbo run build",
     "lint:types": "turbo run lint:types",
