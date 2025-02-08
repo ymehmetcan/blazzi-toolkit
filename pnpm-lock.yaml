@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       '@blazzi/commitlint-config':
-        specifier: 0.1.1
-        version: 0.1.1
+        specifier: 0.1.2
+        version: 0.1.2
       '@blazzi/eslint-config':
         specifier: 0.2.6
         version: 0.2.6(@types/eslint@9.6.1)(eslint@9.20.0(jiti@2.4.2))(prettier@3.4.2)(typescript@5.7.3)
@@ -200,8 +200,8 @@ packages:
     resolution: {integrity: sha512-AOPI3D+a8dXnja+iwsUqGRjr1BbZIe771sXdapOtYI531gSqpi92vXivKcq2asu/DFpdl1ceFAKZyRzK2PCVcQ==}
     engines: {node: '>=6.9.0'}
 
-  '@blazzi/commitlint-config@0.1.1':
-    resolution: {integrity: sha512-It87UUqVJ9fj6TZ5mDJ6ruYu/oggaPouzGgnTMvw4d/Q9j8M6PrGfePYTKQHIZJI1zCRBB21gPJS0D8rGTZhGA==}
+  '@blazzi/commitlint-config@0.1.2':
+    resolution: {integrity: sha512-9zsfgXXVYJoxZI6FkzEMX0YUzNKKbi7iF8OtPpwdnv4o7yT9SlaAIQorWJAswovzTRzUD2bT6GuSmE5axhM15A==}
 
   '@blazzi/eslint-config@0.2.6':
     resolution: {integrity: sha512-lEsYuwqlAqeK5yvJJkq1FqFUqiKO79KWcmd3E12yEoaPRUfm+8im6Z+jztNb2Mklw6Uh8saQzfYEtyv4rCfJnA==}
@@ -273,10 +273,6 @@ packages:
     resolution: {integrity: sha512-iObGjR1tE/PfDtDTEfd+tnRkB3/HJzpQqRTyofS2MPPkDn1mp3DBC8SoPDayokfAy+xKhF8+bwRCJO25Nea0YQ==}
     engines: {node: '>=v18'}
     hasBin: true
-
-  '@commitlint/config-conventional@19.6.0':
-    resolution: {integrity: sha512-DJT40iMnTYtBtUfw9ApbsLZFke1zKh6llITVJ+x9mtpHD08gsNXaIRqHTmwTZL3dNX5+WoyK7pCN/5zswvkBCQ==}
-    engines: {node: '>=v18'}
 
   '@commitlint/config-conventional@19.7.1':
     resolution: {integrity: sha512-fsEIF8zgiI/FIWSnykdQNj/0JE4av08MudLTyYHm4FlLWemKoQvPNUYU2M/3tktWcCEyq7aOkDDgtjrmgWFbvg==}
@@ -2982,9 +2978,9 @@ snapshots:
     dependencies:
       regenerator-runtime: 0.14.1
 
-  '@blazzi/commitlint-config@0.1.1':
+  '@blazzi/commitlint-config@0.1.2':
     dependencies:
-      '@commitlint/config-conventional': 19.6.0
+      '@commitlint/config-conventional': 19.7.1
 
   '@blazzi/eslint-config@0.2.6(@types/eslint@9.6.1)(eslint@9.20.0(jiti@2.4.2))(prettier@3.4.2)(typescript@5.7.3)':
     dependencies:
@@ -3170,11 +3166,6 @@ snapshots:
     transitivePeerDependencies:
       - '@types/node'
       - typescript
-
-  '@commitlint/config-conventional@19.6.0':
-    dependencies:
-      '@commitlint/types': 19.5.0
-      conventional-changelog-conventionalcommits: 7.0.2
 
   '@commitlint/config-conventional@19.7.1':
     dependencies:
