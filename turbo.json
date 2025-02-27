@@ -27,7 +27,7 @@
       "dependsOn": ["transit"]
     },
     "lint": {
-      "dependsOn": ["^lint:types", "//#lint:js", "//#lint:format"]
+      "dependsOn": ["lint:types", "//#lint:js", "//#lint:format"]
     },
     "lint:fix": {
       "dependsOn": ["//#lint:js:fix", "//#lint:format:fix"]

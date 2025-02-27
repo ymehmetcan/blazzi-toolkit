@@ -38,7 +38,7 @@
     "changeset": "changeset",
     "version": "changeset version && pnpm install --no-frozen-lockfile",
     "release": "pnpm run build && changeset publish",
-    "ci:review": "pnpm run lint && pnpm run test",
+    "ci:review": "turbo run lint build",
     "precommit": "lint-staged",
     "prepare": "husky"
   },
