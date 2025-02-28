@@ -1,5 +1,23 @@
 # @blazzi/eslint-config
 
+## 0.2.9
+
+### Patch Changes
+
+- chore(deps): update eslint dependencies ([#85](https://github.com/ymehmetcan/blazzi-toolkit/pull/85))
+
+- chore(deps): update dependency @next/eslint-plugin-next to v15.2.0 ([#86](https://github.com/ymehmetcan/blazzi-toolkit/pull/86))
+
+- chore(deps): update typescript-eslint monorepo to v8.25.0 ([#90](https://github.com/ymehmetcan/blazzi-toolkit/pull/90))
+
+- chore(deps): update dependency eslint-plugin-react-hooks to v5.2.0 ([#96](https://github.com/ymehmetcan/blazzi-toolkit/pull/96))
+
+- chore(deps): update dependency globals to v16 ([#97](https://github.com/ymehmetcan/blazzi-toolkit/pull/97))
+
+- chore(deps): update dependency globals to v15.15.0 ([#89](https://github.com/ymehmetcan/blazzi-toolkit/pull/89))
+
+- chore(deps): update dependency eslint-config-prettier to v10.0.2 ([#94](https://github.com/ymehmetcan/blazzi-toolkit/pull/94))
+
 ## 0.2.8
 
 ### Patch Changes
