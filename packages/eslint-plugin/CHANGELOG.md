@@ -1,5 +1,11 @@
 # @blazzi/eslint-plugin
 
+## 0.1.4
+
+### Patch Changes
+
+- chore(deps): update typescript-eslint monorepo to v8.25.0 ([#90](https://github.com/ymehmetcan/blazzi-toolkit/pull/90))
+
 ## 0.1.3
 
 ### Patch Changes
