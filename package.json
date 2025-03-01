@@ -44,7 +44,7 @@
   },
   "devDependencies": {
     "@blazzi/commitlint-config": "0.1.2",
-    "@blazzi/eslint-config": "0.2.8",
+    "@blazzi/eslint-config": "0.2.9",
     "@blazzi/prettier-config": "0.1.1",
     "@changesets/cli": "2.28.1",
     "@commitlint/cli": "19.7.1",
