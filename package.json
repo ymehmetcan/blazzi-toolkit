@@ -20,9 +20,9 @@
   "type": "module",
   "engines": {
     "node": ">=20.18",
-    "pnpm": "10.5.x"
+    "pnpm": "10.6.x"
   },
-  "packageManager": "pnpm@10.5.2",
+  "packageManager": "pnpm@10.6.3",
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "dev": "turbo run dev",
