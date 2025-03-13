@@ -37,11 +37,11 @@
     "lint:types": "tsc --noEmit"
   },
   "dependencies": {
-    "@commitlint/config-conventional": "19.7.1"
+    "@commitlint/config-conventional": "19.8.0"
   },
   "devDependencies": {
     "@blazzi/ts-config": "workspace:*",
-    "@commitlint/types": "19.5.0",
+    "@commitlint/types": "19.8.0",
     "tsup": "8.4.0",
     "typescript": "5.7.3"
   }
